@@ -2,10 +2,10 @@ package client
 
 import (
 	_ "fmt"
-	"github.com/pkg/errors"
 	"io/ioutil"
 	"path/filepath"
 	"strings"
+	"errors"
 )
 
 type Sources []string
